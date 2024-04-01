@@ -64,6 +64,24 @@
   .cta-btn:hover {
     background-color: #DADADB;
   }
+
+  /* Hide span by default for smaller screens */
+.nav-container .logo a span {
+    display: none !important;
+    font-size: 1rem;
+}
+
+/* For screens of small size and larger (640px and up) */
+@media (min-width: 748px) {
+    .nav-container .logo a {
+        display: flex; /* Make the anchor display its contents as flex items */
+        align-items: center; /* Center the items vertically */
+    }
+    .nav-container .logo a span {
+        display: flex !important; /* Display span as a flex item for larger screens */
+    }
+}
+
   
   /* Footer */
   hr {
