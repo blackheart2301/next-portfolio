@@ -9,12 +9,16 @@ const Projects = () => {
                     <div className="project-card" key={project.id}>
                         <div className="project-header">
                             <i className="fa-regular fa-folder-open folder-icon"></i>
-                            <div className="small-icons">
+                           
+                            <div className="small-icons">Source
                                 <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
                             </div>
                         </div>
-                        <h3>{project.title}</h3>
+                        <h3>{project.title}</h3><br/>
                         <p>{project.description}</p>
+                        <button className='cta-btn'>
+                            <a href={project.demo}></a> Go Live
+                            </button>
                     </div>
                 ))
                 }
