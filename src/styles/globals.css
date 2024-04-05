@@ -24,7 +24,10 @@
   
   a {
     text-decoration: none;
-    color: #DADADB;
+    color: #ffffff;
+  }
+  a:hover{
+    color:#1D1E20;
   }
   
   li {
@@ -50,7 +53,7 @@
   }
   
   .cta-btn {
-    background-color: #FFCC1A;
+    background-color: #bb9408;
     color: #1D1E20;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -62,7 +65,8 @@
   }
   
   .cta-btn:hover {
-    background-color: #DADADB;
+    background-color: rgb(133, 132, 132);
+    color: #1D1E20;
   }
 
   /* Hide span by default for smaller screens */
