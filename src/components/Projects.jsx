@@ -17,7 +17,7 @@ const Projects = () => {
                         <h3>{project.title}</h3><br/>
                         <p>{project.description}</p>
                         <button className='cta-btn'>
-                            <a href={project.demo}></a> Go Live
+                            <a href={project.demo} target="_blank" rel="noopener noreferrer"></a> Go Live
                             </button>
                     </div>
                 ))
