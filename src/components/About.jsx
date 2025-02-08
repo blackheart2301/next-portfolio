@@ -19,7 +19,7 @@ const About = () => {
                     
               
               <h3>Education</h3>
-              <p>B.Sc.(Computer Science), (2020-22)<br />Himalayan University, Itanagar, Arunachal Pradesh</p>
+              <p>B.Sc.(Computer Science), (2019-22)<br />Himalayan University, Itanagar, Arunachal Pradesh</p>
                 </div>
                 <div className="about-img">
                     <Image src='/images/profile_pic.jpeg' className="profile-img" width={300} height={500} alt="Sawan having fun beside pool" />
